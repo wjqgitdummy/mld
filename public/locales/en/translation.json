@@ -1,0 +1,115 @@
+{
+  "navlink": {
+    "about": "About",
+    "services": "Services",
+    "products": "Products",
+    "contact": "Contact",
+    "demo-btn": "Demo our product"
+  },
+  "hero": {
+    "one-liner": "Full-stack solution provider for machine intelligence",
+    "team": "We are a team of robotics and AI enthusiasts, dedicated to research and development of cutting-edge machine intelligence tech.",
+    "learn-btn": "Learn more"
+  },
+  "about": {
+    "summary": "Ceres AI is commited to providing most advanced robotics solution to clients like robot manufacturers",
+    "line-1": "Our team members are from world's top-ranking universities and have well-established knowledge in the industry",
+    "line-2": "We focus on providing top-notched solution to help our clients' transformation towards automation and intelligence.",
+    "contact-btn": "Contact us"
+  },
+  "services": {
+    "title": "SERVICES",
+    "objectives": "We are deeply committed to the growth and success of our clients.",
+    "service-1": {
+      "title": "Full Design",
+      "desc": "A complete pipeline of robot development, including ID, MD, electronics, software and algorithm design and development, to build a product just for your need."
+    },
+    "service-2": {
+      "title": "Customization",
+      "desc": "Minor customization of our existing solutions to fit personalized requirement, e.g. ID, brand etc."
+    },
+    "service-3": {
+      "title": "Algorithm & SW Customization",
+      "desc": "We provide algorithm and software design and development, while our clients can focus on definition and design of the complete product"
+    },
+    "service-4": {
+      "title": "General AI Consultation",
+      "desc": "We also provide professional consultation for clients' various requests on machine intelligence"
+    },
+    "statements": {
+      "build": {
+        "title": "We <1>Build</1>",
+        "desc": "With more than 10 years of experience in robotics and artificial intelligence, we help to bring our customers' idea into reality a.s.a.p."
+      },
+      "collaborate": {
+        "title": "We <1>Collaborate</1>",
+        "desc": "We collaborate with customer's tech team to integrate most advanced AI tech into existing business that increases efficiency and reduces costs"
+      }
+    }
+  },
+  "products": {
+    "title": "PRODUCTS",
+    "schedule-btn": "Schedule Demo",
+    "product-1": {
+      "title": "Robot Self-navigation Kit",
+      "desc": "The kit includes main controller and relevant sensors, it also includes core algorithms like mapping, localization, perception, PnC, etc. Suitable for both indoor and outdoor usages."
+    },
+    "product-2": {
+      "title": "Garden Robot Solution",
+      "desc": "Compelete controller, sensor and actuator solution for robotic mower and snow robots, highly customizable based on clients' different needs."
+    },
+    "product-3": {
+      "title": "Smart Management Platform",
+      "desc": "All-in-one robot fleet management, asset management and multi-robot dispatching platform"
+    },
+    "product-4": {
+      "title": "Smart Sensors",
+      "desc": "Cost-effective smart camera with on-device perception capabilities for different applications, supports various DL algorithms like classification, detection, segmentation etc."
+    }
+  },
+  "partners": {
+    "title": "OUR PARTNERS",
+    "desc": "Some of our partners and clients"
+  },
+  "contact": {
+    "question": "Ready to revolutionize your business with AI?",
+    "answer": "Link with us and let's build something amazing together!",
+    "send-btn": "Send a message",
+    "address": {
+      "line-1": "24F Bld. 3",
+      "line-2": "Xizi International Center",
+      "line-3": "Hangzhou"
+    },
+    "phone": "+86 186 6802 4155",
+    "email": "hi@ceres-ai.co"
+  },
+  "form": {
+    "contact": {
+      "title": "Send us a message",
+      "send-btn": "Send Message"
+    },
+    "demo": {
+      "title": "Demo our products",
+      "send-btn": "Send Message"
+    },
+    "address": "Office Address",
+    "phone": "Call Us",
+    "email": "Send an Email",
+    "placeholder": {
+      "first-name": "First Name*",
+      "last-name": "Last Name*",
+      "email": "Email*",
+      "phone": "Phone*",
+      "message": "Message*"
+    }
+  },
+  "footer": {
+    "links": "LINKS",
+    "services": "SERVICES",
+    "social-media": {
+      "title": "SOCIAL MEDIA LINKS",
+      "desc": "FOLLOW US ON SOCIAL MEDIA"
+    },
+    "copyright": "All rights reserved."
+  }
+}
