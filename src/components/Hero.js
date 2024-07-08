@@ -6,7 +6,7 @@ import heroImg from "../images/gen_hero4_mod.svg";
 import { useTranslation, Trans } from "react-i18next";
 
 const Hero = () => {
-  const { t, i18n } = useTranslation();
+  useTranslation();
   return (
     <>
       <div className="hero" id="hero">

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
 
 const Intro = () => {
-  const { t, i18n } = useTranslation();
+  useTranslation();
   return (
     <>
       <div className="m-auto max-w-6xl p-2 md:p-12 h-5/6" id="about">

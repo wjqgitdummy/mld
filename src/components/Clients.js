@@ -14,7 +14,7 @@ const clientImage = {
 };
 
 const Clients = () => {
-  const { t, i18n } = useTranslation();
+  useTranslation();
   return (
     <div className="mt-8 bg-gray-100">
       <section data-aos="fade-up">

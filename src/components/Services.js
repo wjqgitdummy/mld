@@ -9,7 +9,7 @@ import img4 from "../images/consultation.svg";
 import { useTranslation, Trans } from "react-i18next";
 
 const Services = () => {
-  const { t, i18n } = useTranslation();
+  useTranslation();
   return (
     <div id="services" className="bg-gray-100 py-12">
       <section data-aos="zoom-in-down">

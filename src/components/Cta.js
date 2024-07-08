@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
 
 const Cta = () => {
-  const { t, i18n } = useTranslation();
+  useTranslation();
   return (
     <div className="w-full flex items-center justify-center text-white cta">
       <div className="mx-8 w-full h-96 text-center lg:text-left py-16 px-12 flex lg:justify-between items-center">

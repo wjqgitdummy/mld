@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NavLinks from "../Navbar/NavLinks";
 import { HashLink } from "react-router-hash-link";
-import CeresLogo from "../CeresLogo";
+// import CeresLogo from "../CeresLogo";
 
 const NavBar = () => {
   const [top, setTop] = useState(!window.scrollY);

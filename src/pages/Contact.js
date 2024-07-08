@@ -8,7 +8,7 @@ import Notiflix from "notiflix";
 import { Trans, useTranslation } from "react-i18next";
 
 const Contact = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   useDocTitle("Ceres | Full-stack Solution Provider for Machine Intelligence");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");

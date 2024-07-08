@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 import { useTranslation, Trans } from "react-i18next";
 
 const Footer = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   return (
     <>
       <footer>

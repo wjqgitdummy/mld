@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
 
 const Portfolio = () => {
-  const { t, i18n } = useTranslation();
+  useTranslation();
   return (
     <>
       <div className="my-4 py-4" id="portfolio">
