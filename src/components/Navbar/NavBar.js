@@ -26,7 +26,7 @@ const NavBar = () => {
     >
       <div className="flex flex-row justify-between items-center py-2">
         <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-          <CeresLogo className="absolute animate-spin-slow opacity-5 w-1/2" />
+          <CeresLogo className="absolute animate-spin-slow opacity-5 w-1/2 pointer-events-none" />
           <HashLink smooth to="/#hero">
             <h1 className="font-extrabold text-4xl text-blue-900">ceres</h1>
           </HashLink>
