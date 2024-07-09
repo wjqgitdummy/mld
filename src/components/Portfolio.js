@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
+import img1 from "../images/products/nav-kit.png";
+import img2 from "../images/products/mower.png";
+import img3 from "../images/products/platform.png";
+import img4 from "../images/products/osc.png";
 
 const Portfolio = () => {
   useTranslation();
@@ -23,7 +27,7 @@ const Portfolio = () => {
                     Robot Self-navigation Kit
                   </Trans>
                 </h4>
-                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                <p className="text-md font-medium leading-5 h-auto md:h-24">
                   <Trans i18nKey="products.product-1.desc">
                     The kit includes main controller and relevant sensors, it
                     also includes core algorithms like mapping, localization,
@@ -31,6 +35,7 @@ const Portfolio = () => {
                     usages.
                   </Trans>
                 </p>
+                <img alt="card img" className="rounded-t w-full" src={img1} />
                 <div className="flex justify-center my-4">
                   <Link
                     to="/get-demo"
@@ -61,13 +66,14 @@ const Portfolio = () => {
                     Garden Robot Solution
                   </Trans>
                 </h4>
-                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                <p className="text-md font-medium leading-5 h-auto md:h-24">
                   <Trans i18nKey="products.product-2.desc">
                     Compelete controller, sensor and actuator solution for
                     robotic mower and snow robots, highly customizable based on
                     clients' different needs.
                   </Trans>
                 </p>
+                <img alt="card img" className="rounded-t w-full" src={img2} />
                 <div className="flex justify-center my-4">
                   <Link
                     to="/get-demo"
@@ -109,12 +115,13 @@ const Portfolio = () => {
                     Smart Management Platform
                   </Trans>
                 </h4>
-                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                <p className="text-md font-medium leading-5 h-auto md:h-24">
                   <Trans i18nKey="products.product-3.desc">
                     All-in-one robot fleet management, asset management and
                     multi-robot dispatching platform
                   </Trans>
                 </p>
+                <img alt="card img" className="rounded-t w-full" src={img3} />
                 <div className="flex justify-center my-4">
                   <Link
                     to="/get-demo"
@@ -145,13 +152,14 @@ const Portfolio = () => {
                     Smart Sensors
                   </Trans>
                 </h4>
-                <p className="text-md font-medium leading-5 h-auto md:h-48">
+                <p className="text-md font-medium leading-5 h-auto md:h-24">
                   <Trans i18nKey="products.product-4.desc">
                     Cost-effective smart camera with on-device perception
                     capabilities for different applications, supports various DL
                     algorithms like classification, detection, segmentation etc.
                   </Trans>
                 </p>
+                <img alt="card img" className="rounded-t w-full" src={img4} />
                 <div className="flex justify-center my-4">
                   <Link
                     to="/get-demo"

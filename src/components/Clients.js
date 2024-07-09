@@ -4,7 +4,7 @@ import lenovo from "../images/clients/lenovo.png";
 import kerry from "../images/clients/kerry.png";
 import capitaland from "../images/clients/capitaland.png";
 import qualcomm from "../images/clients/qualcomm.png";
-import sophgo from "../images/clients/sophgo.svg";
+import sophgo from "../images/clients/sophgo.png";
 import { useTranslation, Trans } from "react-i18next";
 
 const clientImage = {
